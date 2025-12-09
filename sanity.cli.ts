@@ -5,6 +5,7 @@ export default defineCliConfig({
     projectId: 'up5wppro',
     dataset: 'production'
   },
+  studioHost: process.env.SANITY_STUDIO_HOST,
   deployment: {
     /**
      * Enable auto-updates for studios.
